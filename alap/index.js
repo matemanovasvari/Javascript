@@ -1,0 +1,1 @@
+document.write("Szia cula!")
