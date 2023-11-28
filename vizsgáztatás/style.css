@@ -24,8 +24,9 @@ body{
     border: 1px solid rgba(255, 255, 255, .5);
     border-radius: 15px;
     position: absolute;
-    margin: 0 25%;
-    margin-top: 12.5%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
     padding: 2%;
     color: black;
     justify-content: center;
@@ -49,5 +50,5 @@ p{
 
 #output{
     font-weight: bold;
-    color: antiquewhite;
+    color: white;
 }

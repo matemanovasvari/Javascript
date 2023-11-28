@@ -57,10 +57,8 @@ function start(){
 
     var priceForOnePerson = Math.round(fullPrice / numberOfCandidates);
 
-    var fullPriceOutput = document.getElementById("fullpriceoutput").innerHTML = fullPrice;
-    var priceForOne = document.getElementById("priceforone").innerHTML = priceForOnePerson;
-
-    console.log(priceOfPresident, priceOfMembers, priceOfNotary, priceOfGuarding, priceOfAdministration);
+    var fullPriceOutput = document.getElementById("fullpriceoutput").innerHTML = Math.round(fullPrice);
+    var priceForOne = document.getElementById("priceforone").innerHTML = Math.round(priceForOnePerson);
 }
 
 function restart(){
