@@ -52,3 +52,13 @@ body{
     color: #fff;
     background: red;
 }
+
+#loading_msg{
+    visibility: hidden;
+    text-align: center;
+}
+
+#msg{
+    visibility: hidden;
+    text-align: center;
+}
