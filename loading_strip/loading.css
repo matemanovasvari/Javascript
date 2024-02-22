@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#load{
+    width: 0%;
+    height: 25px;
+    background-color: green;
+    margin-left: 5px;
+}
+
+#startbtn{
+    padding: 10px 60px;
+    background: #fff;
+    border: 1px solid rgb(14, 214, 14);
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+    top: 25%;
+    left: 40%;
+    translate: -50% -50%;
+    position: absolute;
+    color: rgb(14, 214, 14);
+}
+
+#startbtn:hover{
+    color: #fff;
+    background: rgb(14, 214, 14);
+}
+
+#clearbtn{
+    padding: 10px 60px;
+    background: #fff;
+    border: 1px solid red;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+    top: 25%;
+    left: 60%;
+    translate: -50% -50%;
+    position: absolute;
+    color: red;
+}
+
+#clearbtn:hover{
+    color: #fff;
+    background: red;
+}
