@@ -13,3 +13,7 @@ loader = setInterval(function()
         document.getElementById("load").style.visibility = "hidden";
     }
 }, 10)
+
+let reloader = setInterval(function() {
+    window.location.reload();
+}, 5000)

@@ -17,21 +17,6 @@ let changeTime = setInterval(function()
     content5.style.display = "none";
 
     var randomNumber = Math.floor(Math.random() * (max - min)) + min;
-    if(randomNumber == 1){
-        id = "content1";
-    }
-    if(randomNumber == 2){
-        id = "content2";
-    }
-    if(randomNumber == 3){
-        id = "content3";
-    }
-    if(randomNumber == 4){
-        id = "content4";
-    }
-    if(randomNumber == 5){
-        id = "content5";
-    }
         
-    document.getElementById(`${id}`).style.display = "block";
+    document.getElementById(`content${randomNumber}`).style.display = "block";
 }, 5000)
