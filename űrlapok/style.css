@@ -5,7 +5,7 @@ fieldset>div{
 fieldset{
     border: 3px solid green;
     background-color: aquamarine;
-    width: 20vw;
+    width: 14vw;
     position: absolute;
     top: 25%;
     left: 50%;
@@ -22,4 +22,35 @@ legend {
 
 h1{
     text-align: center;
+}
+
+#submit{
+    float: right;
+    height: 50px;
+    margin-top: 2px;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+#back{
+    height: 50px;
+    margin-top: 2px;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+    float: left;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 24;
+  
+}
+
+#mainpage{
+    display: none;
 }
