@@ -41,8 +41,28 @@
 
     <fieldset>
         <legend>2. kérdés</legend>
-        <textarea name="" id="k2" cols="30" rows="10" placeholder="Type a text" maxlength="20"></textarea>
+        <br>
+        <textarea name="" id="k2" cols="30" rows="10" placeholder="Type a text" maxlength="25"></textarea>
+        <div>
+            <span id="actualsize">
+            </span>
+            /
+            <span id="maxsize">
+            </span>
+        </div>
     </fieldset>
     
+    <fieldset>
+        <legend>3. kérdés</legend>
+        <label for="k3">Melyik CSS tulajdonsággal lehet időbeli átmenetet adni elemekhez</label>
+        <select id="k3">
+            <option value="1">background</option>
+            <option value="2">transform</option>
+            <option value="3">transition</option>
+            <option value="4">animation</option>
+            <option value="5">linear gradient</option>
+        </select>
+        <div id="answer"></div>
+    </fieldset>
 </body>
 </html>
